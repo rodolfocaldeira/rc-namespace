@@ -1,7 +1,7 @@
 var rodi = require('../');
 var test = require('tape');
 
-test('rodi.namespace', function(t) {
+test('rodi-namespace', function(t) {
   var root = this;
   rodi.namespace('harder.faster.Better', root);
 
