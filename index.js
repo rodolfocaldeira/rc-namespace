@@ -4,7 +4,7 @@ var namespace = function(name, opt_root) {
   if(!name && name === '') {
     return;
   }
-  opt_root = opt_root || this;
+  opt_root = opt_root || self;
   var parts = name.split('.');
   var part = parts.shift();
 
