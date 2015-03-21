@@ -1,0 +1,30 @@
+{
+  "name": "rodi-namespace",
+  "main": "index.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/rodolfocaldeira/rodi-namespace",
+  "main": "index.js",
+  "authors": [
+    "Rodolfo Caldeira <me@rodolfocaldeira.com>"
+  ],
+  "description": "A utility library for quickly creating namespaces.",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "namespace",
+    "name",
+    "space",
+    "namespacing",
+    "rodi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

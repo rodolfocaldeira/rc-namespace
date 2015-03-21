@@ -1,6 +1,6 @@
 {
   "name": "rodi-namespace",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A utility library for quickly creating namespaces.",
   "main": "index.js",
   "scripts": {
