@@ -1,3 +1,5 @@
+var self = this;
+
 var namespace = function(name, opt_root) {
   if(!name && name === '') {
     return;
@@ -10,6 +12,9 @@ var namespace = function(name, opt_root) {
   return namespace(parts.join('.'), opt_root[part]);
 };
 
-namespace('rodi.namespace');
-rodi.namespace = namespace;
-module.exports = rodi;
+namespace('rodi.namespace', self);
+self.rodi.namespace = namespace;
+
+if (typeof module !== 'undefined') {
+  module.exports = self.rodi;
+}
