@@ -1,4 +1,4 @@
-# rodi.namespace
+# rodi-namespace
 
 A utility library for quickly creating namespaces.
 
