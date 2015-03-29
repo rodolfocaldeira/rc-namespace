@@ -2,7 +2,7 @@ var self = this;
 
 var namespace = function(name, opt_root) {
   if(!name && name === '') {
-    return;
+    return opt_root;
   }
   opt_root = opt_root || self;
   var parts = name.split('.');
