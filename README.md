@@ -44,3 +44,4 @@ $ bower install rodi-namespace --save
 * 0.1.2 Bower support
 * 0.1.3 Fixed the reference to **this**
 * 0.1.4 The namespace is returned upon creation
+* 0.1.5 Updated the readme file
