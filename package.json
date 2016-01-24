@@ -1,6 +1,6 @@
 {
   "name": "rc-namespace",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A utility library for quickly creating namespaces.",
   "main": "index.js",
   "scripts": {
