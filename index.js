@@ -12,9 +12,9 @@ var namespace = function(name, opt_root) {
   return namespace(parts.join('.'), opt_root[part]);
 };
 
-namespace('rodi.namespace', self);
-self.rodi.namespace = namespace;
+namespace('rc.namespace', self);
+self.rc.namespace = namespace;
 
 if (typeof module !== 'undefined') {
-  module.exports = self.rodi;
+  module.exports = self.rc;
 }

@@ -1,15 +1,15 @@
-# rodi-namespace
+# rc-namespace
 
 A utility library for quickly creating namespaces.
 
 ## Installation
 
-  npm install rodi-namespace --save
+  npm install rc-namespace --save
 
 ## Usage
 
-  var rodi = require('rodi-namespace');
-  rodi.namespace('my.awesome.package.HelloWorld');
+  var rc = require('rc-namespace');
+  rc.namespace('my.awesome.package.HelloWorld');
 
 ## Tests
 

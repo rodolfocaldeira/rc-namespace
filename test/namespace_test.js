@@ -1,11 +1,11 @@
-var rodi = require('../');
+var rc = require('../');
 var test = require('tape');
 
-test('rodi-namespace', function(t) {
+test('rc-namespace', function(t) {
   var root = this;
-  var result = rodi.namespace('harder.faster.Better', root);
+  var result = rc.namespace('harder.faster.Better', root);
 
-  t.notEqual(rodi.namespace, undefined, 'rodi.namespace should be defined');
+  t.notEqual(rc.namespace, undefined, 'rc.namespace should be defined');
   t.notEqual(root.harder, undefined, 'harder should be defined');
   t.notEqual(root.harder.faster, undefined, 'harder.faster should be defined');
   t.notEqual(root.harder.faster.Better, undefined,

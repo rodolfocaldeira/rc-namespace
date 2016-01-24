@@ -1,5 +1,5 @@
 {
-  "name": "rodi-namespace",
+  "name": "rc-namespace",
   "version": "0.1.4",
   "description": "A utility library for quickly creating namespaces.",
   "main": "index.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodolfocaldeira/rodi-namespace.git"
+    "url": "https://github.com/rodolfocaldeira/rc-namespace.git"
   },
   "keywords": [
     "namespace",
     "name",
     "space",
     "namespacing",
-    "rodi"
+    "rc"
   ],
   "author": "Rodolfo Caldeira <me@rodolfocaldeira.com> (http://rodolfocaldeira.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rodolfocaldeira/rodi-namespace/issues"
+    "url": "https://github.com/rodolfocaldeira/rc-namespace/issues"
   },
-  "homepage": "https://github.com/rodolfocaldeira/rodi-namespace",
+  "homepage": "https://github.com/rodolfocaldeira/rc-namespace",
   "devDependencies": {
     "tape": "^3.5.0"
   }
